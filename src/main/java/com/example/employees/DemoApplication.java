@@ -9,7 +9,7 @@ public class DemoApplication {
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
         BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
-        String rawPassword = "admin123"; // o la que quieras practicar
+        String rawPassword = "admin123";
         String encoded = encoder.encode(rawPassword);
         System.out.println(encoded);
     }
