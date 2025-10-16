@@ -1,0 +1,10 @@
+{"properties": [
+  {
+    "name": "security.jwt.secret",
+    "type": "java.lang.String"
+  },
+  {
+    "name": "security.jwt.exp",
+    "type": "java.lang.String"
+  }
+]}
